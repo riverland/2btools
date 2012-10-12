@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC 
+	"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+	"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="knifepenner" extends="application-default"
+		namespace="/knifepenner">
+		<action name="showSeal" class="org.river.rbtools.knifepenner.action.SealAction"
+			method="showSeal">
+			<result name="success" type="stream">
+				<param name="contentType">image/jpeg</param>
+				<param name="inputName">sealIns</param>
+				<param name="contentDisposition">attachment;filename="seal.png"</param>
+				<param name="bufferSize">1024</param>
+			</result>
+		</action>
+		
+		<action name="carve" class="org.river.rbtools.knifepenner.action.SealAction"
+			method="carve">
+			<result type="json">
+				<param name="excludeProperties">
+					sealIns
+	            </param>
+			</result>
+		</action>
+		<action name="list" class="org.river.rbtools.knifepenner.action.PatternAction"
+			method="list">
+			<result type="json">
+				<param name="excludeProperties">
+	            </param>
+			</result>
+		</action>
+	</package>
+	<package name="stamper" extends="application-default"
+		namespace="/stamper">
+		<action name="show" class="org.river.rbtools.knifepenner.action.StamperAction"
+			method="show">
+			<result name="success" type="stream">
+				<param name="contentType">image/jpeg</param>
+				<param name="inputName">canvasIns</param>
+				<param name="contentDisposition">attachment;filename="canvas.png"</param>
+				<param name="bufferSize">1024</param>
+			</result>
+		</action>
+		<action name="stamp" class="org.river.rbtools.knifepenner.action.StamperAction"
+			method="stamp">
+			<result type="json">
+				<param name="excludeProperties">
+					sealList
+	            </param>
+			</result>
+		</action>
+		<action name="upload" class="org.river.rbtools.knifepenner.action.StamperAction"
+			method="upload">
+			<result type="json">
+				<param name="excludeProperties">
+					sealList,canvasKey
+	            </param>
+			</result>
+		</action>
+	</package>
+</struts>

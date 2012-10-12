@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zh-CN" dir="ltr"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title> 2B工具箱</title>
+        <meta name="viewport" content="initial-scale=1.0; maximum-scale=1.0; width=device-width; "/>
+        <link rel="shortcut icon" href="icon/favicon.ico">
+        <link rel="stylesheet" href="css/style.css?v=2.1">
+        <script src="js/plugins/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript">
+            $(function(){
+                $(document).ready(function(){
+                    $("#header").load("block/header.html");
+                    $("#menu").load("block/menu.html");
+                    //$("#listPanel").load("modules/piceditor/main.html");
+                    $("#listPanel").load("modules/arttext/main.html");
+                    $("#footer").load("block/footer.html");
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id="container">
+            <div id='header'> </div>
+            <div id="main"  class='container'>
+                <div id='menu' class="test"> </div>
+                <div style="clear:both"></div>
+                <div id="listPanel"> </div>
+            </div>
+            <div id='footer'> </div>
+        </div>
+    </body>
+</html>

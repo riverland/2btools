@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>2btools-parent</artifactId>
+		<groupId>org.river.2btools</groupId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+	<groupId>org.river.2btools</groupId>
+	<artifactId>2btools-arttext</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<name>2btools-arttext</name>
+	<url>http://maven.apache.org</url>
+	<dependencies>
+		<dependency>
+			<groupId>org.river.base</groupId>
+			<artifactId>img-utils</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+	<properties>
+		<jdbc.url>jdbc:mysql://org.river.2btools/2btools_arttext?createDatabaseIfNotExist=true&amp;amp;useUnicode=true&amp;amp;characterEncoding=utf-8</jdbc.url>
+		<jdbc.username>root</jdbc.username>
+		<jdbc.password>admin</jdbc.password>
+	</properties>
+
+	<profiles>
+		<profile>
+			<id>oracle</id>
+			<properties>
+				<jdbc.url>jdbc:oracle:thin:@org.river.2btools:1521:orcl</jdbc.url>
+				<jdbc.username>root</jdbc.username>
+				<jdbc.password>admin</jdbc.password>
+			</properties>
+		</profile>
+		<profile>
+			<id>sqlserver</id>
+			<properties>
+				<jdbc.url>jdbc:sqlserver://org.river.2btools:1433;DatabaseName=2btools_arttext</jdbc.url>
+				<jdbc.username>root</jdbc.username>
+				<jdbc.password>admin</jdbc.password>
+			</properties>
+		</profile>
+	</profiles>
+</project>

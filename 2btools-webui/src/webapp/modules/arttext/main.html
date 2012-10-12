@@ -1,0 +1,66 @@
+<link rel="stylesheet" href="modules/arttext/colorbox.css" />
+<script type="text/javascript" src="modules/arttext/js/main.js"></script>
+<script type="text/javascript" src="js/plugins/jquery.colorbox.js"></script>
+<div id="toolPanel" class="clearfix"> 
+    <div id="artTextPanel">
+        <div style="clear:both"></div>
+        <div id="artTextArea" tabindex=20 contenteditable="true">
+            <div style="font-size:20px;width:200px;height:50px;margin:20px">
+                请输入要美化的文本
+            </div>
+        </div>   
+    </div>
+    <div id="artTextMenuPanel">
+        <div id="menuAlignPanel">
+            <div id="renderMenu">
+                <div id="renderBtn"><p>美化文本</p></div> 
+            </div>
+            <div id="typeSetMenu">
+                <div id="fontPaper">
+                    <span>字号:</span>
+                    <select>
+                        <option>字号</option>
+                        <option>15</option>
+                        <option>20</option>
+                        <option>25</option>
+                    </select>
+                </div> <br/>
+                <div style="clear:both"></div>
+                <div id="textAlign" class="menuItem">
+                    <ul>
+                        <li><input id ="textAlignH" name="textAlignValue" type="radio" /><span>横排</span></li>
+                        <li><input id="textAlignV" name="textAlignValue" type="radio"/><span>竖排</span></li>
+                    </ul>
+                </div>
+                <div id="paperType" class="menuItem">
+                    <ul>
+                        <li id="xuanzhi" class="on"><a>宣纸</a></li>
+                        <li id="muke"><a>木刻</a></li>
+                        <li id="beiwen"><a>碑刻</a></li>
+                        <li id="banzhi"><a>板纸</a></li>
+                        <li id="xinqian"><a>信签</a></li>
+                        <li id="zhuke"><a>竹刻</a></li>
+                    </ul>
+                    <div style="clear:both"></div>
+                </div>
+            </div>
+             <div id="fontFamilyMenu">
+                <div id="fontFamily" class="menuItem">
+                    <ul>
+                        <li id="xingkai" class="on"><a>行楷</a></li>
+                        <li id="caoshu"><a>草书</a></li>
+                        <li id="maoti"><a>毛体</a></li>
+                        <li id="fanjuan"><a>繁篆</a></li>
+                        <li id="youyuan"><a>幼圆</a></li>
+                        <li id="lishu"><a>隶书</a></li>
+                    </ul>
+                    <div style="clear:both"></div>
+                </div>
+            </div>
+        </div>    
+    </div> 
+    <div style="clear:both"></div>
+    <div id="picPanel" style="display:none"></div>
+</div>
+<img id ="showcase" style="display:none;" src="/artword/generate.do?imgInfo.content=中国很其挂挂挂嘎u嘎u阿瓜&imgInfo.filterName=zhujian_maoti" />
+

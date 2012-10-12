@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC 
+	"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+	"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<constant name="struts.devMode" value="true" />
+	<constant name="struts.i18n.encoding" value="UTF-8" />
+	<constant name="struts.action.extension" value="do" />
+	<constant name="struts.objectFactory" value="spring" />
+	<constant name="struts.custom.i18n.resources" value="ApplicationResources" />
+	<constant name="struts.multipart.maxSize" value="2097152" />
+	<constant name="struts.ui.theme" value="css_xhtml" />
+	<constant name="struts.enable.SlashesInActionNames" value="true" />
+	<constant name="struts.locale" value="zh_CN" />
+	<package name="river-json-default" extends="struts-default" abstract="true">
+		<result-types>
+			<result-type name="json" class="org.apache.struts2.json.JSONResult"
+				default="true" />
+		</result-types>
+	</package>
+	<package name="application-default" extends="river-json-default" abstract="true">
+	</package>
+	
+	<!-- 以下是具体action的配置引入 -->
+	<include file="struts-arttext.xml"/>
+	<include file="struts-knifepenner.xml"/>
+	<include file="struts-doc.xml"/>
+</struts>

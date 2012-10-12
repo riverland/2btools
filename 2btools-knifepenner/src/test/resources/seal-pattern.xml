@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patterns patternPath="/mnt/workspace/artword/sealpattern"
+	fontPath="/mnt/workspace/artword/font">
+	<pattern id="珍品" name="珍品" width="151" height="263" dented="true"
+		color="#FF0000">
+		<font family="隶书" fontSize="140" fontStyle="0" x="0" y="100" />
+		<font family="隶书" fontSize="140" fontStyle="0" x="0" y="200" />
+	</pattern>
+	<pattern id="铜钱01" name="铜钱01" width="260" height="260" dented="false"
+		color="#F62B0A">
+		<font family="行楷繁体" fontSize="60" fontStyle="0" x="95" y="90" />
+		<font family="行楷繁体" fontSize="60" fontStyle="0" x="95" y="210" />
+	</pattern>
+
+	<pattern id="老姜" name="老姜" width="200" height="280"
+		dented="true" color="#FF0000">
+		<font family="fanjuan" fontSize="90" fontStyle="0" x="50" y="105" />
+		<font family="fanjuan" fontSize="90" fontStyle="0" x="50" y="210" />
+	</pattern>
+	<pattern id="方形印章01" name="方形印章01" width="200" height="200"
+		dented="true" color="#FF0000">
+		<font family="BNUFJ" fontSize="70" fontStyle="0" x="67" y="120" />
+	</pattern>
+	<pattern id="方形印章02" name="方形印章02" width="200" height="200"
+		dented="true" color="#FF0000">
+		<font family="fanjuan" fontSize="120" fontStyle="0" x="35" y="130" />
+	</pattern>
+	<pattern id="方形印章03" name="方形印章03" width="200" height="200"
+		dented="false" color="#FD7474">
+		<font family="fanjuan" fontSize="70" fontStyle="0" x="100" y="80" />
+		<font family="fanjuan" fontSize="70" fontStyle="0" x="100" y="160" />
+		<font family="fanjuan" fontSize="70" fontStyle="0" x="30" y="80" />
+		<font family="fanjuan" fontSize="70" fontStyle="0" x="30" y="160" />
+	</pattern>
+	<pattern id="方形印章04" name="方形印章04" width="200" height="200"
+		dented="true" color="#FF0000">
+		<font family="BNUFJ" fontSize="70" fontStyle="0" x="64" y="120" />
+	</pattern>
+	<pattern id="方形印章05" name="方形印章05" width="200" height="200"
+		dented="true" color="#FF0000">
+		<font family="BNUFJ" fontSize="70" fontStyle="0" x="64" y="120" />
+	</pattern>
+	<pattern id="方形印章06" name="方形印章06" width="200" height="200"
+		dented="false" color="#990100">
+		<font family="隶书" fontSize="150" fontStyle="0" x="22" y="150" />
+	</pattern>
+	
+	<pattern id="方形黑印01" name="方形黑印01" width="200" height="200"
+		dented="false" color="#111111">
+		<font family="huangcao" fontSize="150" fontStyle="0" x="25" y="150" />
+	</pattern>
+	<pattern id="方形黑印02" name="方形黑印02" width="200" height="200"
+		dented="true" color="#FF0000">
+		<font family="fanjuan" fontSize="93" fontStyle="0" x="98" y="80" />
+		<font family="fanjuan" fontSize="93" fontStyle="0" x="98" y="168" />
+		<font family="fanjuan" fontSize="93" fontStyle="0" x="10" y="80" />
+		<font family="fanjuan" fontSize="93" fontStyle="0" x="10" y="168" />
+	</pattern>
+	
+	<pattern id="长形印章01" name="长形印章01" width="200" height="280"
+		dented="true" color="#FFFFFF">
+		<font family="huangcao" fontSize="140" fontStyle="0" x="30" y="130" />
+		<font family="huangcao" fontSize="140" fontStyle="0" x="30" y="240" />
+	</pattern>
+	<pattern id="长形印章03" name="长形印章03" width="119" height="260"
+		dented="true" color="#FFFFFF">
+		<font family="huangcao" fontSize="50" fontStyle="0" x="50" y="120" />
+		<font family="huangcao" fontSize="70" fontStyle="0" x="30" y="170" />
+		<font family="huangcao" fontSize="80" fontStyle="0" x="10" y="220" />
+		<font family="huangcao" fontSize="65" fontStyle="0" x="55" y="240" />
+	</pattern>
+	<pattern id="黑印01" name="黑印01" width="200" height="280"
+		dented="false" color="#111111">
+		<font family="huangcao" fontSize="125" fontStyle="0" x="40" y="120" />
+		<font family="huangcao" fontSize="125" fontStyle="0" x="40" y="240" />
+	</pattern>
+</patterns>

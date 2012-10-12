@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC 
+	"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+	"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="doc" extends="application-default"
+		namespace="/doc">
+		<action name="open" class="org.river.rbtools.doc.action.DocAction"
+			method="open">
+			<result type="json">
+				<param name="excludeProperties">
+					directory\.nextSeqId,
+					directory\.nonPrimaryKeyNames,
+					directory\.primaryKeyNames,
+					directory\.type,
+					directory\.allFieldsNames,
+					directory\.parent\.parent,
+					directory\.parent\.children,
+					directory\.parent\.documents,
+					directory\.children\[\d+\]\.parent,
+					directory\.children\[\d+\]\.children,
+					directory\.children\[\d+\]\.documents,
+					directory\.documents\[\d+\]\.directory
+				</param>
+			</result>
+		</action>
+		
+		<action name="mkdir" class="org.river.rbtools.doc.action.DocAction"
+			method="mkdir">
+			<result type="json">
+				<param name="excludeProperties">
+					directory\.nextSeqId,
+					directory\.nonPrimaryKeyNames,
+					directory\.primaryKeyNames,
+					directory\.type,
+					directory\.allFieldsNames,
+					directory\.parent\.parent,
+					directory\.parent\.children,
+					directory\.parent\.documents,
+					directory\.children\[\d+\]\.parent,
+					directory\.children\[\d+\]\.children,
+					directory\.children\[\d+\]\.documents,
+					directory\.documents\[\d+\]\.directory
+				</param>
+			</result>
+		</action>
+		
+		<action name="rename" class="org.river.rbtools.doc.action.DocAction"
+			method="rename">
+			<result type="json">
+				<param name="excludeProperties">
+					directory\.nextSeqId,
+					directory\.nonPrimaryKeyNames,
+					directory\.primaryKeyNames,
+					directory\.type,
+					directory\.allFieldsNames,
+					directory\.parent\.parent,
+					directory\.parent\.children,
+					directory\.parent\.documents,
+					directory\.children\[\d+\]\.parent,
+					directory\.children\[\d+\]\.children,
+					directory\.children\[\d+\]\.documents,
+					directory\.documents\[\d+\]\.directory
+				</param>
+			</result>
+		</action>
+		
+		<action name="mkdoc" class="org.river.rbtools.doc.action.DocAction"
+			method="mkdoc">
+			<result type="json">
+				<param name="excludeProperties">
+					directory\.nextSeqId,
+					directory\.nonPrimaryKeyNames,
+					directory\.primaryKeyNames,
+					directory\.type,
+					directory\.allFieldsNames,
+					directory\.parent\.parent,
+					directory\.parent\.children,
+					directory\.parent\.documents,
+					directory\.children\[\d+\]\.parent,
+					directory\.children\[\d+\]\.children,
+					directory\.children\[\d+\]\.documents,
+					directory\.documents\[\d+\]\.directory
+				</param>
+			</result>
+		</action>
+		
+		<action name="rm" class="org.river.rbtools.doc.action.DocAction"
+			method="rm">
+			<result type="json">
+				<param name="excludeProperties">
+					directory\.nextSeqId,
+					directory\.nonPrimaryKeyNames,
+					directory\.primaryKeyNames,
+					directory\.type,
+					directory\.allFieldsNames,
+					directory\.parent\.parent,
+					directory\.parent\.children,
+					directory\.parent\.documents,
+					directory\.children\[\d+\]\.parent,
+					directory\.children\[\d+\]\.children,
+					directory\.children\[\d+\]\.documents,
+					directory\.documents\[\d+\]\.directory
+				</param>
+			</result>
+		</action>	
+	</package>
+</struts>

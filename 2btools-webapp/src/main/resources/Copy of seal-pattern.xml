@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patterns patternPath="/mnt/workspace/artword/sealpattern"
+	fontPath="/mnt/workspace/artword/font">
+	<pattern id="珍品" name="珍品" width="151" height="263" dented="true"
+		color="#FF0000">
+		<font family="隶书" fontSize="140" fontStyle="0" x="0" y="100" />
+		<font family="隶书" fontSize="140" fontStyle="0" x="0" y="200" />
+	</pattern>
+	<pattern id="铜钱01" name="铜钱01" width="260" height="260" dented="false"
+		color="#F62B0A">
+		<font family="行楷繁体" fontSize="60" fontStyle="0" x="95" y="90" />
+		<font family="行楷繁体" fontSize="60" fontStyle="0" x="95" y="210" />
+	</pattern>
+
+	<pattern id="seal01" name="seal01" width="200" height="280"
+		dented="true" color="#FF0000">
+		<font family="fanjuan" fontSize="90" fontStyle="0" x="50" y="105" />
+		<font family="fanjuan" fontSize="90" fontStyle="0" x="50" y="210" />
+	</pattern>
+	<pattern id="方形印章02" name="方形印章02" width="200" height="200"
+		dented="true" color="#FF0000">
+		<font family="fanjuan" fontSize="60" fontStyle="0" x="70" y="120" />
+	</pattern>
+	<pattern id="方形印章01" name="方形印章01" width="200" height="200"
+		dented="true" color="#FF0000">
+		<font family="BNUFJ" fontSize="70" fontStyle="0" x="67" y="120" />
+	</pattern>
+
+</patterns>

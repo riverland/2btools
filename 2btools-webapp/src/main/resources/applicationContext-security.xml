@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:lang="http://www.springframework.org/schema/lang"
+	xmlns:jee="http://www.springframework.org/schema/jee" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:util="http://www.springframework.org/schema/util" xmlns:s="http://www.springframework.org/schema/security"
+	xsi:schemaLocation="
+	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+	http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.0.xsd
+	http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang-2.0.xsd
+	http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-2.0.xsd
+	http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.0.xsd
+	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.0.xsd
+	http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-2.0.4.xsd">
+  <import resource="classpath:/com/turbom/base/security/applicationContext-security.xml"/>
+	<!-- http安全配置  -->	
+	<s:http auto-config="false" entry-point-ref="senseEntryPoint">
+		<s:anonymous />
+		<s:logout logout-url="/logout" logout-success-url="/login.jsp" />
+		<s:intercept-url pattern="/favicon.ico" filters="none" />
+		<s:intercept-url pattern="/images/**" filters="none" />
+		<s:intercept-url pattern="/styles/**" filters="none" />     
+		<s:intercept-url pattern="/**" access="IS_AUTHENTICATED_REMEMBERED" />        
+	</s:http>
+  <bean id="SelfAuthenticationProcessingFilter"
+		class="com.turbom.base.security.spring.SelfAuthenticationProcessingFilter">
+		<s:custom-filter position="AUTHENTICATION_PROCESSING_FILTER" />
+		<property name="authenticationManager" ref="authenticationManager" />
+		<property name="authenticationFailureUrl" value="/login.jsp?error=loginFail" />
+		<property name="filterProcessesUrl" value="" />
+		<property name="defaultTargetUrl" value="" />
+	</bean>
+
+	<bean id="SelfAuthenticationProvider"
+		class="SelfAuthenticationProcessingFilter.SelfAuthenticationProvider">
+		<s:custom-authentication-provider />
+		<property name="userDetailsService" ref="userManager" />
+		<property name="passwordEncoder">
+			<bean class="org.springframework.security.providers.encoding.ShaPasswordEncoder" />
+		</property>
+	</bean>
+</beans>

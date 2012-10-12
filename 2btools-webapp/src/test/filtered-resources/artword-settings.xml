@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings fontPath="${artword.path.font}" imgPath="${artword.path.img}">
+	<style id="zhujian_maoti" color="#000000" fontCap="0">
+		<font family="maoti" size="15" />
+		<layout marginLeft="105" 
+				marginTop="10" 
+				marginRight="0" 
+				marginBottom="10" 
+				x="" y="" 
+				width=""
+				height=""
+				direction="V"
+				align=""
+				lineHeight="22"/>
+		<background name="竹简">
+			<head x="547" y="0" height="231" width="1"/>
+			<block x="485" y="0" height="231" width="22"/>
+			<tail x="0" y="0" height="231" width="104"/> 
+		</background>
+	</style>
+	
+	<style id="zhujian_huangcao" color="#000000" fontCap="-2">
+		<font family="huangcao" size="15" />
+		<layout marginLeft="105" 
+				marginTop="10" 
+				marginRight="0" 
+				marginBottom="10" 
+				x="" y="" 
+				width=""
+				height=""
+				direction="V"
+				align=""
+				lineHeight="22"/>
+		<background name="竹简">
+			<head x="547" y="0" height="231" width="1"/>
+			<block x="485" y="0" height="231" width="22"/>
+			<tail x="0" y="0" height="231" width="104"/> 
+		</background>
+	</style>
+	
+	<style id="beike" color="#FFFFFF" fontCap="0">
+		<font family="maozedong" size="20" />
+		<layout marginLeft="10" 
+				marginTop="10" 
+				marginRight="10" 
+				marginBottom="13" 
+				x="" y="" 
+				width=""
+				height=""
+				direction="V"
+				align=""
+				lineHeight="25"/>
+		<background name="碑刻">
+			<head x="455" y="0" height="434" width="20"/>
+			<block x="400" y="0" height="434" width="55"/>
+			<tail x="0" y="0" height="434" width="1"/> 
+		</background>
+	</style>
+</settings>

@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings fontPath="/mnt/workspace/artword/font" imgPath="/mnt/workspace/artword/img" sealPath="/mnt/workspace/artword/seal">
+	<style id="zhujian_maoti" color="#000000" fontCap="0">
+		<font family="maoti" size="20" />
+		<layout marginLeft="105" 
+				marginTop="10" 
+				marginRight="0" 
+				marginBottom="10" 
+				x="" y="" 
+				width=""
+				height=""
+				direction="V"
+				align=""
+				lineHeight="44"
+				paddingLine="10"/>
+		<background name="竹简">
+			<head x="439" y="0" height="440" width="1"/>
+			<block x="90" y="0" height="440" width="44"/>
+			<tail x="0" y="0" height="440" width="1"/> 
+		</background>
+	</style>
+	
+	<style id="zhujian_caoshu" color="#000000" fontCap="-2">
+		<font family="huangcao" size="15" />
+		<layout marginLeft="105" 
+				marginTop="10" 
+				marginRight="0" 
+				marginBottom="10" 
+				x="" y="" 
+				width=""
+				height=""
+				direction="V"
+				align=""
+				lineHeight="22"/>
+		<background name="竹简">
+			<head x="439" y="0" height="440" width="1"/>
+			<block x="418" y="0" height="440" width="22"/>
+			<tail x="0" y="0" height="440" width="1"/> 
+		</background>
+	</style>
+	
+	<style id="zhujian_fanjuan" color="#3d3d16" fontCap="5">
+		<font family="fanjuan" size="15" />
+		<layout marginLeft="105" 
+				marginTop="10" 
+				marginRight="0" 
+				marginBottom="10" 
+				x="" y="" 
+				width=""
+				height=""
+				direction="V"
+				align=""
+				lineHeight="22"/>
+		<background name="竹简">
+			<head x="439" y="0" height="440" width="1"/>
+			<block x="418" y="0" height="440" width="22"/>
+			<tail x="0" y="0" height="440" width="1"/> 
+		</background>
+	</style>
+	
+	<style id="zhujian_lishu" color="#000000" fontCap="0">
+		<font family="lishu" size="15" />
+		<layout marginLeft="105" 
+				marginTop="10" 
+				marginRight="0" 
+				marginBottom="10" 
+				x="" y="" 
+				width=""
+				height=""
+				direction="V"
+				align=""
+				lineHeight="22"/>
+		<background name="竹简">
+			<head x="439" y="0" height="440" width="1"/>
+			<block x="418" y="0" height="440" width="22"/>
+			<tail x="0" y="0" height="440" width="1"/> 
+		</background>
+	</style>
+	
+	
+	<style id="zhujian_xingkai" color="#000000" fontCap="-2">
+		<font family="行楷繁体" size="15" />
+		<layout marginLeft="105" 
+				marginTop="10" 
+				marginRight="0" 
+				marginBottom="10" 
+				x="" y="" 
+				width=""
+				height=""
+				direction="V"
+				align=""
+				lineHeight="22"/>
+		<background name="竹简">
+			<head x="439" y="0" height="440" width="1"/>
+			<block x="418" y="0" height="440" width="22"/>
+			<tail x="0" y="0" height="440" width="1"/> 
+		</background>
+	</style>
+	
+	<style id="zhujian_weibei" color="#000000" fontCap="-2">
+		<font family="weibei" size="15" />
+		<layout marginLeft="105" 
+				marginTop="10" 
+				marginRight="0" 
+				marginBottom="10" 
+				x="" y="" 
+				width=""
+				height=""
+				direction="V"
+				align=""
+				lineHeight="22"/>
+		<background name="竹简">
+			<head x="439" y="0" height="440" width="1"/>
+			<block x="418" y="0" height="440" width="22"/>
+			<tail x="0" y="0" height="440" width="1"/> 
+		</background>
+	</style>
+	<!-- 碑刻 -->
+	<style id="beike_maoti" color="#FFFFFF" fontCap="0">
+		<font family="maoti" size="20" />
+		<layout marginLeft="10" 
+				marginTop="10" 
+				marginRight="10" 
+				marginBottom="13" 
+				x="" y="" 
+				width=""
+				height=""
+				direction="V"
+				align=""
+				lineHeight="25"/>
+		<background name="碑刻">
+			<head x="455" y="0" height="434" width="20"/>
+			<block x="400" y="0" height="434" width="55"/>
+			<tail x="0" y="0" height="434" width="1"/> 
+		</background>
+	</style>	
+	<style id="beike_caoshu" color="#FFFFFF" fontCap="-5">
+		<font family="huangcao" size="20" />
+		<layout marginLeft="10" 
+				marginTop="10" 
+				marginRight="10" 
+				marginBottom="13" 
+				x="" y="" 
+				width=""
+				height=""
+				direction="V"
+				align=""
+				lineHeight="25"/>
+		<background name="碑刻">
+			<head x="455" y="0" height="434" width="20"/>
+			<block x="400" y="0" height="434" width="55"/>
+			<tail x="0" y="0" height="434" width="1"/> 
+		</background>
+	</style>	
+	<style id="beike_fanjuan" color="#FFFFFF" fontCap="5">
+		<font family="fanjuan" size="20" />
+		<layout marginLeft="10" 
+				marginTop="10" 
+				marginRight="10" 
+				marginBottom="13" 
+				x="" y="" 
+				width=""
+				height=""
+				direction="V"
+				align=""
+				lineHeight="30"/>
+		<background name="碑刻">
+			<head x="455" y="0" height="434" width="20"/>
+			<block x="400" y="0" height="434" width="55"/>
+			<tail x="0" y="0" height="434" width="1"/> 
+		</background>
+	</style>	
+	<style id="beike_xingkai" color="#FFFFFF" fontCap="-5">
+		<font family="行楷繁体" size="20" />
+		<layout marginLeft="10" 
+				marginTop="10" 
+				marginRight="10" 
+				marginBottom="13" 
+				x="" y="" 
+				width=""
+				height=""
+				direction="V"
+				align=""
+				lineHeight="25"/>
+		<background name="碑刻">
+			<head x="455" y="0" height="434" width="20"/>
+			<block x="400" y="0" height="434" width="55"/>
+			<tail x="0" y="0" height="434" width="1"/> 
+		</background>
+	</style>
+	<style id="beike_lishu" color="#FFFFFF" fontCap="-5">
+		<font family="lishu" size="20" />
+		<layout marginLeft="10" 
+				marginTop="10" 
+				marginRight="10" 
+				marginBottom="13" 
+				x="" y="" 
+				width=""
+				height=""
+				direction="V"
+				align=""
+				lineHeight="25"/>
+		<background name="碑刻">
+			<head x="455" y="0" height="434" width="20"/>
+			<block x="400" y="0" height="434" width="55"/>
+			<tail x="0" y="0" height="434" width="1"/> 
+		</background>
+	</style>
+	<style id="beike_weibei" color="#FFFFFF" fontCap="-5">
+		<font family="weibei" size="20" />
+		<layout marginLeft="10" 
+				marginTop="10" 
+				marginRight="10" 
+				marginBottom="13" 
+				x="" y="" 
+				width=""
+				height=""
+				direction="V"
+				align=""
+				lineHeight="25"/>
+		<background name="碑刻">
+			<head x="455" y="0" height="434" width="20"/>
+			<block x="400" y="0" height="434" width="55"/>
+			<tail x="0" y="0" height="434" width="1"/> 
+		</background>		
+	</style>
+	<!-- 宣纸 -->
+	<style id="xuanzhi_maoti" color="#000000" fontCap="0">
+		<font family="maoti" size="20" />
+		<layout marginLeft="10" 
+				marginTop="10" 
+				marginRight="10" 
+				marginBottom="13" 
+				x="" y="" 
+				width=""
+				height=""
+				direction="V"
+				align=""
+				lineHeight="25"/>
+		<background name="宣纸03">
+			<head x="420" y="0" height="440" width="20"/>
+			<block x="350" y="0" height="440" width="40"/>
+			<tail x="0" y="0" height="440" width="20"/> 
+		</background>
+		<seals>
+			<seal x="10" y="200" name="珍品" width="50" height="100"/>
+		</seals>
+	</style>	
+	<style id="xuanzhi_caoshu" color="#000000" fontCap="-5">
+		<font family="huangcao" size="20" />
+		<layout marginLeft="10" 
+				marginTop="10" 
+				marginRight="10" 
+				marginBottom="13" 
+				x="" y="" 
+				width=""
+				height=""
+				direction="V"
+				align=""
+				lineHeight="25"/>
+		<background name="宣纸03">
+			<head x="420" y="0" height="440" width="20"/>
+			<block x="350" y="0" height="440" width="40"/>
+			<tail x="0" y="0" height="440" width="20"/> 
+		</background>
+		<seals>
+			<seal x="10" y="200" name="珍品" width="50" height="100"/>
+		</seals>
+	</style>	
+	<style id="xuanzhi_fanjuan" color="#000000" fontCap="5">
+		<font family="fanjuan" size="20" />
+		<layout marginLeft="10" 
+				marginTop="10" 
+				marginRight="10" 
+				marginBottom="13" 
+				x="" y="" 
+				width=""
+				height=""
+				direction="V"
+				align=""
+				lineHeight="30"/>
+		<background name="宣纸03">
+			<head x="420" y="0" height="440" width="20"/>
+			<block x="350" y="0" height="440" width="40"/>
+			<tail x="0" y="0" height="440" width="20"/> 
+		</background>
+		<seals>
+			<seal x="10" y="200" name="珍品" width="50" height="100"/>
+		</seals>
+	</style>	
+	<style id="xuanzhi_xingkai" color="#b3a8a8" fontCap="-5">
+		<font family="行楷繁体" size="20" />
+		<layout marginLeft="10" 
+				marginTop="10" 
+				marginRight="10" 
+				marginBottom="13" 
+				x="" y="" 
+				width=""
+				height=""
+				direction="V"
+				align=""
+				lineHeight="25"/>
+		<background name="宣纸03">
+			<head x="420" y="0" height="440" width="20"/>
+			<block x="350" y="0" height="440" width="40"/>
+			<tail x="0" y="0" height="440" width="20"/> 
+		</background>
+		<seals>
+			<seal x="10" y="200" name="珍品" width="50" height="100"/>
+		</seals>
+	</style>
+	<style id="xuanzhi_lishu" color="#d2cbcb" fontCap="-5">
+		<font family="lishu" size="20" />
+		<layout marginLeft="10" 
+				marginTop="10" 
+				marginRight="10" 
+				marginBottom="13" 
+				x="" y="" 
+				width=""
+				height=""
+				direction="V"
+				align=""
+				lineHeight="25"/>
+		<background name="宣纸03">
+			<head x="420" y="0" height="440" width="20"/>
+			<block x="350" y="0" height="440" width="40"/>
+			<tail x="0" y="0" height="440" width="20"/> 
+		</background>
+		<seals>
+			<seal x="10" y="200" name="珍品" width="50" height="100"/>
+		</seals>
+	</style>
+	<style id="xuanzhi_weibei" color="#554b4b" fontCap="-5">
+		<font family="weibei" size="20" />
+		<layout marginLeft="10" 
+				marginTop="10" 
+				marginRight="10" 
+				marginBottom="13" 
+				x="" y="" 
+				width=""
+				height=""
+				direction="V"
+				align=""
+				lineHeight="25"/>
+		<background name="宣纸03">
+			<head x="420" y="0" height="440" width="20"/>
+			<block x="350" y="0" height="440" width="40"/>
+			<tail x="0" y="0" height="440" width="20"/> 
+		</background>
+		<seals>
+			<seal x="10" y="200" name="珍品" width="50" height="100"/>
+		</seals>
+	</style>
+	<!-- 画布 -->
+	<style id="huabu_maoti" color="#000000" fontCap="0">
+		<font family="maoti" size="20" />
+		<layout marginLeft="10" 
+				marginTop="10" 
+				marginRight="10" 
+				marginBottom="13" 
+				x="" y="" 
+				width=""
+				height=""
+				direction="V"
+				align=""
+				lineHeight="30"/>
+		<background name="画布">
+			<head x="420" y="0" height="440" width="20"/>
+			<block x="350" y="0" height="440" width="40"/>
+			<tail x="0" y="0" height="440" width="20"/> 
+		</background>
+		<seals>
+			<seal x="10" y="200" name="珍品" width="50" height="100"/>
+		</seals>
+	</style>	
+	<style id="huabu_caoshu" color="#000000" fontCap="-5">
+		<font family="huangcao" size="20" />
+		<layout marginLeft="10" 
+				marginTop="10" 
+				marginRight="10" 
+				marginBottom="13" 
+				x="" y="" 
+				width=""
+				height=""
+				direction="V"
+				align=""
+				lineHeight="25"/>
+		<background name="画布">
+			<head x="420" y="0" height="440" width="20"/>
+			<block x="350" y="0" height="440" width="40"/>
+			<tail x="0" y="0" height="440" width="20"/> 
+		</background>
+		<seals>
+			<seal x="10" y="200" name="珍品" width="50" height="100"/>
+		</seals>
+	</style>	
+	<style id="huabu_fanjuan" color="#000000" fontCap="5">
+		<font family="fanjuan" size="20" />
+		<layout marginLeft="10" 
+				marginTop="10" 
+				marginRight="10" 
+				marginBottom="13" 
+				x="" y="" 
+				width=""
+				height=""
+				direction="V"
+				align=""
+				lineHeight="30"/>
+		<background name="画布">
+			<head x="420" y="0" height="440" width="20"/>
+			<block x="350" y="0" height="440" width="40"/>
+			<tail x="0" y="0" height="440" width="20"/> 
+		</background>
+		<seals>
+			<seal x="10" y="200" name="珍品" width="50" height="100"/>
+		</seals>
+	</style>	
+	<style id="huabu_xingkai" color="#000000" fontCap="-5">
+		<font family="行楷繁体" size="20" />
+		<layout marginLeft="10" 
+				marginTop="10" 
+				marginRight="10" 
+				marginBottom="13" 
+				x="" y="" 
+				width=""
+				height=""
+				direction="V"
+				align=""
+				lineHeight="25"/>
+		<background name="画布">
+			<head x="420" y="0" height="440" width="20"/>
+			<block x="350" y="0" height="440" width="40"/>
+			<tail x="0" y="0" height="440" width="20"/> 
+		</background>
+		<seals>
+			<seal x="10" y="200" name="珍品" width="50" height="100"/>
+		</seals>
+	</style>
+	<style id="huabu_lishu" color="#000000" fontCap="-5">
+		<font family="lishu" size="20" />
+		<layout marginLeft="10" 
+				marginTop="10" 
+				marginRight="10" 
+				marginBottom="13" 
+				x="" y="" 
+				width=""
+				height=""
+				direction="V"
+				align=""
+				lineHeight="25"/>
+		<background name="画布">
+			<head x="420" y="0" height="440" width="20"/>
+			<block x="350" y="0" height="440" width="40"/>
+			<tail x="0" y="0" height="440" width="20"/> 
+		</background>
+		<seals>
+			<seal x="10" y="200" name="珍品" width="50" height="100"/>
+		</seals>
+	</style>
+	<style id="huabu_weibei" color="#000000" fontCap="-5">
+		<font family="weibei" size="20" />
+		<layout marginLeft="10" 
+				marginTop="10" 
+				marginRight="10" 
+				marginBottom="13" 
+				x="" y="" 
+				width=""
+				height=""
+				direction="V"
+				align=""
+				lineHeight="25"/>
+		<background name="画布">
+			<head x="420" y="0" height="440" width="20"/>
+			<block x="350" y="0" height="440" width="40"/>
+			<tail x="0" y="0" height="440" width="20"/> 
+		</background>
+		<seals>
+			<seal x="10" y="200" name="珍品" width="50" height="100"/>
+		</seals>
+	</style>	
+	<!-- 板纸 -->
+	<style id="banzhi_maoti" color="#000000" fontCap="0">
+		<font family="maoti" size="20" />
+		<layout marginLeft="10" 
+				marginTop="10" 
+				marginRight="30" 
+				marginBottom="13" 
+				x="" y="" 
+				width=""
+				height=""
+				direction="V"
+				align=""
+				lineHeight="25"/>
+		<background name="板纸02">
+			<head x="320" y="0" height="440" width="120"/>
+			<block x="100" y="0" height="440" width="100"/>
+			<tail x="0" y="0" height="440" width="60"/> 
+		</background>
+		<seals>
+			<seal x="60" y="200" name="珍品" width="50" height="100"/>
+		</seals>		
+	</style>	
+	<style id="banzhi_caoshu" color="#000000" fontCap="-5">
+		<font family="huangcao" size="20" />
+		<layout marginLeft="60" 
+				marginTop="10" 
+				marginRight="30" 
+				marginBottom="13" 
+				x="" y="" 
+				width=""
+				height=""
+				direction="V"
+				align=""
+				lineHeight="25"/>
+		<background name="板纸02">
+			<head x="320" y="0" height="440" width="120"/>
+			<block x="100" y="0" height="440" width="100"/>
+			<tail x="0" y="0" height="440" width="60"/> 
+		</background>
+		<seals>
+			<seal x="60" y="200" name="珍品" width="50" height="100"/>			
+			<seal x="200" y="200" name="carve" width="100" height="100"/>
+		</seals>
+	</style>	
+	<style id="banzhi_fanjuan" color="#000000" fontCap="10">
+		<font family="fanjuan" size="20" />
+		<layout marginLeft="60" 
+				marginTop="20" 
+				marginRight="30" 
+				marginBottom="13" 
+				x="" y="" 
+				width=""
+				height=""
+				direction="V"
+				align=""
+				lineHeight="30"/>
+		<background name="板纸02">
+			<head x="320" y="0" height="440" width="120"/>
+			<block x="100" y="0" height="440" width="100"/>
+			<tail x="0" y="0" height="440" width="60"/> 
+		</background>
+		<seals>
+			<seal x="60" y="200" name="珍品" width="50" height="100"/>
+		</seals>
+	</style>
+	<style id="banzhi_weibei" color="#000000" fontCap="-5">
+		<font family="weibei" size="20" />
+		<layout marginLeft="60" 
+				marginTop="10" 
+				marginRight="30" 
+				marginBottom="13" 
+				x="" y="" 
+				width=""
+				height=""
+				direction="V"
+				align=""
+				lineHeight="25"/>
+		<background name="板纸02">
+			<head x="320" y="0" height="440" width="120"/>
+			<block x="100" y="0" height="440" width="100"/>
+			<tail x="0" y="0" height="440" width="60"/> 
+		</background>
+		<seals>
+			<seal x="60" y="200" name="珍品" width="50" height="100"/>
+		</seals>
+	</style>
+	<style id="banzhi_lishu" color="#000000" fontCap="-5">
+		<font family="lishu" size="20" />
+		<layout marginLeft="60" 
+				marginTop="10" 
+				marginRight="30" 
+				marginBottom="20" 
+				x="" y="" 
+				width=""
+				height=""
+				direction="V"
+				align=""
+				lineHeight="25"/>
+		<background name="板纸02">
+			<head x="320" y="0" height="440" width="120"/>
+			<block x="100" y="0" height="440" width="100"/>
+			<tail x="0" y="0" height="440" width="60"/> 
+		</background>
+		<seals>
+			<seal x="60" y="200" name="珍品" width="50" height="100"/>
+		</seals>
+	</style>
+	<style id="banzhi_xingkai" color="#000000" fontCap="-5">
+		<font family="行楷繁体" size="20" />
+		<layout marginLeft="60" 
+				marginTop="10" 
+				marginRight="30" 
+				marginBottom="13" 
+				x="" y="" 
+				width=""
+				height=""
+				direction="V"
+				align=""
+				lineHeight="25"/>
+		<background name="板纸02">
+			<head x="320" y="0" height="440" width="120"/>
+			<block x="100" y="0" height="440" width="100"/>
+			<tail x="0" y="0" height="440" width="60"/> 
+		</background>
+		<seals>
+			<seal x="60" y="200" name="珍品" width="50" height="100"/>
+		</seals>
+	</style>
+</settings>
